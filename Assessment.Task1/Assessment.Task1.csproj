@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Assessment.Task1.Bc\Assessment.Task1.Bc.csproj" />
+    <ProjectReference Include="..\Assessment.Task1.Dao\Assessment.Task1.Dao.csproj" />
+    <ProjectReference Include="..\Assessment.Task1.Models\Assessment.Task1.Models.csproj" />
+    <ProjectReference Include="..\Assessment.Task1.Service\Assessment.Task1.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SampleCsvFiles\" />
+    <Folder Include="wwwroot\upload\" />
+  </ItemGroup>
+
+</Project>
